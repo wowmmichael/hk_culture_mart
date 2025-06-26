@@ -42,7 +42,7 @@ export default function ToysPage() {
       {/* Hero Banner */}
       <div className="relative h-64 md:h-80">
         <Image
-          src="/images/toys-banner.jpg"
+          src="/images/toys-banner-low.jpg"
           alt="玩具"
           fill
           className="object-cover"
