@@ -68,11 +68,41 @@ export default function AboutPage() {
           <div className="text-center">
             <h2 className="text-3xl font-bold mb-6 text-gray-900">聯絡我們</h2>
             <p className="text-lg text-gray-700 mb-4">
-              香港中環摩羅石街 20:8:24 樓
+              香港中環砵甸乍街/石板街 FP-20 & 24檔
             </p>
-            <p className="text-lg text-gray-700">
-              電郵: info@hkculturemart.com
+            <p className="text-lg text-gray-700 mb-6 flex items-center justify-center">
+              <span>📞 (852) 2580 8002</span>
+              <span className="mx-3 text-gray-400">|</span>
+              <span>✉️ info@island-cult.com</span>
             </p>
+            
+            <div className="mt-6">
+              <p className="text-lg text-gray-700 mb-4">掃描二維碼聯繫我們：</p>
+              <div className="flex justify-center space-x-8 items-center">
+                <div className="text-center">
+                  <div className="relative w-32 h-32 mx-auto mb-2">
+                    <Image 
+                      src="/images/whatsapp.jpg" 
+                      alt="WhatsApp QR Code" 
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <p className="text-base text-gray-700">WhatsApp</p>
+                </div>
+                <div className="text-center">
+                  <div className="relative w-32 h-32 mx-auto mb-2">
+                    <Image 
+                      src="/images/wechat.jpg" 
+                      alt="WeChat QR Code" 
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <p className="text-base text-gray-700">WeChat</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
