@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HK Culture Mart",
+  title: "Island Cult",
   description: "A marketplace for Hong Kong cultural products",
 };
 

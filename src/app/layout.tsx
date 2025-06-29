@@ -19,7 +19,7 @@ const notoSansHK = Noto_Sans_HK({
 });
 
 export const metadata: Metadata = {
-  title: "香岛文化 | HK Culture Mart",
+  title: "香岛文化 | Island Cult",
   description: "香港本地產品的多元市集，分享香港文化與創意",
 };
 
