@@ -10,15 +10,29 @@ import { useEffect, useState } from "react";
 export default function LocalizedHomePage() {
   const { t, locale } = useTranslations();
   const params = useParams();
-  const [title, setTitle] = useState("香岛文化");
-  const [description, setDescription] = useState("發掘香港本地文化與創意，支持本地創作者");
-  const [exploreText, setExploreText] = useState("探索產品");
+  const [title, setTitle] = useState("");
+  const [description, setDescription] = useState("");
+  const [exploreText, setExploreText] = useState("");
+  const [categoriesTitle, setCategoriesTitle] = useState("");
+  const [toysTitle, setToysTitle] = useState("");
+  const [toysDesc, setToysDesc] = useState("");
+  const [cultureTitle, setCultureTitle] = useState("");
+  const [cultureDesc, setCultureDesc] = useState("");
+  const [newyearTitle, setNewyearTitle] = useState("");
+  const [newyearDesc, setNewyearDesc] = useState("");
 
   useEffect(() => {
     function loadTranslations() {
       setTitle(String(t('site.title')));
       setDescription(String(t('site.description')));
-      setExploreText(String(t('nav.toys')));
+      setExploreText(String(t('home.explore')));
+      setCategoriesTitle(String(t('home.categories.title')));
+      setToysTitle(String(t('home.categories.toys')));
+      setToysDesc(String(t('home.categories.toysDesc')));
+      setCultureTitle(String(t('home.categories.culture')));
+      setCultureDesc(String(t('home.categories.cultureDesc')));
+      setNewyearTitle(String(t('home.categories.newyear')));
+      setNewyearDesc(String(t('home.categories.newyearDesc')));
     }
     loadTranslations();
   }, [t, locale]);
@@ -59,21 +73,21 @@ export default function LocalizedHomePage() {
       {/* Categories Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">主要分類</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">{categoriesTitle}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Link href={`${localePrefix}/toys`} className="group">
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
                 <div className="relative h-64">
                   <Image 
                     src="/images/toys-banner-low.jpg" 
-                    alt="玩具"
+                    alt={toysTitle}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">玩具</h3>
-                  <p className="text-gray-600">探索香港特色玩具和收藏品</p>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{toysTitle}</h3>
+                  <p className="text-gray-600">{toysDesc}</p>
                 </div>
               </div>
             </Link>
@@ -82,14 +96,14 @@ export default function LocalizedHomePage() {
                 <div className="relative h-64">
                   <Image 
                     src="/images/culture-banner-low.jpg" 
-                    alt="文創文旅"
+                    alt={cultureTitle}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">文創文旅</h3>
-                  <p className="text-gray-600">發現香港文化創意和旅遊產品</p>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{cultureTitle}</h3>
+                  <p className="text-gray-600">{cultureDesc}</p>
                 </div>
               </div>
             </Link>
@@ -98,14 +112,14 @@ export default function LocalizedHomePage() {
                 <div className="relative h-64">
                   <Image 
                     src="/images/newyear-banner-low.jpg" 
-                    alt="農曆新年"
+                    alt={newyearTitle}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">農曆新年</h3>
-                  <p className="text-gray-600">新年特色禮品和裝飾</p>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{newyearTitle}</h3>
+                  <p className="text-gray-600">{newyearDesc}</p>
                 </div>
               </div>
             </Link>
