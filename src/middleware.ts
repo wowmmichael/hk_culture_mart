@@ -23,6 +23,12 @@ function getLocale(request: NextRequest): string {
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   
+  // Special case: handle the root path explicitly to avoid conflicts
+  if (pathname === '/') {
+    const locale = getLocale(request);
+    return NextResponse.redirect(new URL(`/${locale}`, request.url));
+  }
+  
   // Check if there is any supported locale in the pathname
   const pathnameIsMissingLocale = locales.every(
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
@@ -35,7 +41,7 @@ export function middleware(request: NextRequest) {
     // e.g. incoming request is /products
     // The new URL is now /en/products
     return NextResponse.redirect(
-      new URL(`/${locale}${pathname === '/' ? '' : pathname}`, request.url)
+      new URL(`/${locale}${pathname}`, request.url)
     );
   }
 }

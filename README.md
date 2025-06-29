@@ -18,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying files in:
 
-- `src/pages/page.tsx` - The main page component
+- `src/app/[locale]/page.tsx` - The main localized page component  
 - `src/components/` - Reusable UI components
 
 The page auto-updates as you edit the files.
