@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Noto_Sans_HK } from "next/font/google";
+import { LocaleProvider } from "@/contexts/LocaleContext";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -25,15 +26,25 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params?: { locale?: string };
 }>) {
+  const locale = params?.locale || 'zh-TW';
+  
+  // Set html lang attribute based on locale
+  const langAttribute = locale === 'zh-TW' ? 'zh-Hant-HK' : 
+                         locale === 'zh-CN' ? 'zh-Hans-CN' : 'en';
+                         
   return (
-    <html lang="zh-Hant-HK">
+    <html lang={langAttribute}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${notoSansHK.variable} antialiased bg-gray-50 font-[family-name:var(--font-noto-sans-hk)]`}
       >
-        {children}
+        <LocaleProvider>
+          {children}
+        </LocaleProvider>
       </body>
     </html>
   );

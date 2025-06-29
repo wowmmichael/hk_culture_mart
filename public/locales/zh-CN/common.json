@@ -1,0 +1,30 @@
+{
+  "site": {
+    "title": "香岛文化",
+    "description": "香港本地产品的多元市集，分享香港文化与创意"
+  },
+  "nav": {
+    "home": "首页",
+    "toys": "玩具",
+    "culture": "文创文旅",
+    "christmas": "圣诞节",
+    "halloween": "万圣节",
+    "newyear": "贺年礼品",
+    "about": "关于我们"
+  },
+  "footer": {
+    "quickLinks": "快速链接",
+    "festivalSpecial": "节日特辑",
+    "contactUs": "联络我们",
+    "address": "香港中环砵甸乍街/石板街 FP-20 & 24档",
+    "phone": "(852) 2580 8002",
+    "email": "info@island-cult.com",
+    "scanQR": "扫描二维码联系我们：",
+    "copyright": "© 2025 香岛文化. 版权所有。"
+  },
+  "language": {
+    "zh-TW": "繁體中文",
+    "zh-CN": "简体中文",
+    "en": "English"
+  }
+}

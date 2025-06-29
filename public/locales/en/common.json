@@ -1,0 +1,30 @@
+{
+  "site": {
+    "title": "Island Cult",
+    "description": "A diverse marketplace for Hong Kong local products, sharing Hong Kong culture and creativity"
+  },
+  "nav": {
+    "home": "Home",
+    "toys": "Toys",
+    "culture": "Cultural & Travel",
+    "christmas": "Christmas",
+    "halloween": "Halloween",
+    "newyear": "New Year Gifts",
+    "about": "About Us"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "festivalSpecial": "Festival Specials",
+    "contactUs": "Contact Us",
+    "address": "FP-20 & 24, Pottinger Street, Central, Hong Kong",
+    "phone": "(852) 2580 8002",
+    "email": "info@island-cult.com",
+    "scanQR": "Scan QR code to contact us:",
+    "copyright": "© 2025 Island Cult. All rights reserved."
+  },
+  "language": {
+    "zh-TW": "繁體中文",
+    "zh-CN": "简体中文",
+    "en": "English"
+  }
+}

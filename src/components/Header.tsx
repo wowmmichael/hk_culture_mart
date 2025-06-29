@@ -1,4 +1,10 @@
+'use client';
+
+import { useParams } from 'next/navigation';
 import Link from 'next/link';
+import LanguageSelector from './LanguageSelector';
+import { useTranslations } from '@/hooks/useTranslations';
+import { useState, useEffect } from 'react';
 
 interface NavLinkProps {
   href: string;
@@ -6,33 +12,68 @@ interface NavLinkProps {
   className?: string;
 }
 
-const NavLink = ({ href, children, className = '' }: NavLinkProps) => (
-  <Link 
-    href={href} 
-    className={`px-4 py-2 text-gray-800 hover:text-red-600 hover:bg-gray-100 transition-colors font-medium ${className}`}
-  >
-    {children}
-  </Link>
-);
+const NavLink = ({ href, children, className = '' }: NavLinkProps) => {
+  const params = useParams();
+  const locale = (params?.locale as string) || 'zh-TW';
+  const localizedHref = `/${locale}${href === '/' ? '' : href}`;
+  
+  return (
+    <Link 
+      href={localizedHref} 
+      className={`px-4 py-2 text-gray-800 hover:text-red-600 hover:bg-gray-100 transition-colors font-medium ${className}`}
+    >
+      {children}
+    </Link>
+  );
+};
 
 export default function Header() {
+  const { t, locale } = useTranslations();
+  const [translations, setTranslations] = useState<Record<string, string>>({
+    home: '首頁',
+    toys: '玩具',
+    culture: '文創文旅',
+    christmas: '聖誕節',
+    halloween: '萬聖節',
+    newyear: '贺年礼品',
+    about: '關於我們',
+  });
+
+  useEffect(() => {
+    function loadTranslations() {
+      const nav = {
+        home: String(t('nav.home')),
+        toys: String(t('nav.toys')),
+        culture: String(t('nav.culture')),
+        christmas: String(t('nav.christmas')),
+        halloween: String(t('nav.halloween')),
+        newyear: String(t('nav.newyear')),
+        about: String(t('nav.about'))
+      };
+      setTranslations(nav);
+    }
+    
+    loadTranslations();
+  }, [t, locale]);
+
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3">
         <nav className="flex items-center justify-between">
-          <Link href="/" className="font-bold text-xl text-red-700">香岛文化</Link>
+          <NavLink href="/" className="font-bold text-xl text-red-700">香岛文化</NavLink>
           
           <div className="flex items-center space-x-1">
-            <NavLink href="/">首頁</NavLink>
-            <NavLink href="/toys">玩具</NavLink>
-            <NavLink href="/culture">文創文旅</NavLink>
-            <NavLink href="/christmas">聖誕節</NavLink>
-            <NavLink href="/halloween">萬聖節</NavLink>
-            <NavLink href="/newyear">贺年礼品</NavLink>
-            <NavLink href="/about">關於我們</NavLink>
+            <NavLink href="/">{translations.home}</NavLink>
+            <NavLink href="/toys">{translations.toys}</NavLink>
+            <NavLink href="/culture">{translations.culture}</NavLink>
+            <NavLink href="/christmas">{translations.christmas}</NavLink>
+            <NavLink href="/halloween">{translations.halloween}</NavLink>
+            <NavLink href="/newyear">{translations.newyear}</NavLink>
+            <NavLink href="/about">{translations.about}</NavLink>
           </div>
           
           <div>
+            <LanguageSelector />
           </div>
         </nav>
       </div>
