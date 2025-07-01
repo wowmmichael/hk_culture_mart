@@ -28,5 +28,87 @@
     "zh-TW": "繁體中文",
     "zh-CN": "简体中文",
     "en": "English"
+  },
+  "home": {
+    "categories": {
+      "title": "Main Categories",
+      "toys": "Toys",
+      "toysDesc": "Explore Hong Kong's unique toys and collectibles",
+      "culture": "Cultural & Travel",
+      "cultureDesc": "Discover Hong Kong's cultural creative and tourism products",
+      "newyear": "Lunar New Year",
+      "newyearDesc": "New Year special gifts and decorations"
+    },
+    "explore": "Explore Products"
+  },
+  "christmas": {
+    "subtitle": "Hong Kong-style Christmas gifts and decorations",
+    "header": "Hong Kong Christmas",
+    "description": "In Hong Kong, Christmas is a festival full of Eastern and Western cultural fusion. We offer unique Hong Kong-style Christmas products to make your holiday celebration more local.",
+    "featureTitle": "Christmas Limited Collection",
+    "featureAlt": "Hong Kong Christmas",
+    "featureDesc1": "Our Christmas limited collection combines Western Christmas elements with Hong Kong local culture, creating a unique holiday experience. From decorations to gifts, each item is full of creativity and thoughtfulness.",
+    "featureDesc2": "Whether you're giving them to friends and family or decorating your home, these products will make your Christmas more special.",
+    "availability": "Christmas products will be available from October each year. Stay tuned!"
+  },
+  "culture": {
+    "subtitle": "Hong Kong's unique cultural and travel souvenirs",
+    "header": "Explore Hong Kong's Cultural Creativity",
+    "description": "We select local cultural creative products from Hong Kong to showcase the talents and creativity of local designers and artists.",
+    "featureTitle": "Hong Kong Features",
+    "featureAlt": "Hong Kong Features",
+    "featureDesc1": "From traditional to modern, we collect a variety of products reflecting Hong Kong's unique culture and history. Each piece represents an aspect of Hong Kong and tells a story of this city.",
+    "featureDesc2": "These products are not just souvenirs, but carriers of Hong Kong culture. What you take home is not just an item, but also the spirit and emotion of Hong Kong.",
+    "comingSoonTitle": "Coming Soon",
+    "comingSoonDesc": "We are working with more local designers and will bring more exciting cultural creative products. Stay tuned!"
+  },
+  "halloween": {
+    "subtitle": "Halloween items combining Hong Kong local culture",
+    "header": "Hong Kong Style Halloween",
+    "description": "Halloween is becoming increasingly popular in Hong Kong. We blend local Hong Kong elements with Halloween themes to create a unique festival experience.",
+    "featuredTitle": "Halloween Featured",
+    "category1": "Decorations",
+    "category1Desc": "Unique decorations combining traditional Chinese elements with Halloween atmosphere.",
+    "category2": "Costumes & Props",
+    "category2Desc": "Creative Halloween costumes and props, blending Eastern and Western elements.",
+    "category3": "Special Edition Toys",
+    "category3Desc": "Halloween limited-edition toys with unique designs blending Chinese and Western cultures.",
+    "availability": "Halloween products will be available from September each year. Stay tuned!"
+  },
+  "newyear": {
+    "title": "Lunar New Year",
+    "subtitle": "Special products to celebrate Lunar New Year",
+    "header": "Welcome the Lunar New Year",
+    "description": "Lunar New Year is the most important traditional festival for Chinese people. We provide a variety of beautiful New Year decorations and gifts to help you create a festive atmosphere.",
+    "category1": "New Year Decorations",
+    "category1Desc": "Spring couplets, lanterns, window paper-cuts and other traditional New Year decorations to fill your home with festive atmosphere.",
+    "category2": "New Year Gift Boxes",
+    "category2Desc": "Beautifully packaged gift boxes containing various traditional candies, cookies, and tea, ideal for visiting friends and family.",
+    "category3": "Limited Edition Toys",
+    "category3Desc": "Limited edition toys and collectibles themed around the zodiac animal of the year, making them precious souvenirs.",
+    "availability": "Lunar New Year products will be available two months before the festival. Stay tuned!"
+  },
+  "toys": {
+    "subtitle": "Explore Hong Kong local toys and panda limited editions",
+    "product1": {
+      "title": "Plush Panda Toy",
+      "description": "Classic design panda, adorable and huggable"
+    },
+    "product2": {
+      "title": "Panda Keychain",
+      "description": "Cute little panda to carry with you, worth collecting"
+    },
+    "product3": {
+      "title": "Green Sleeve Panda",
+      "description": "Panda with bright green camouflage sleeves, super cute"
+    },
+    "product4": {
+      "title": "Black Panda Toy",
+      "description": "Bright black little panda with intense color tones"
+    },
+    "product5": {
+      "title": "White Panda Collectible",
+      "description": "Plush snow bear cloud with silver sword light"
+    }
   }
 }

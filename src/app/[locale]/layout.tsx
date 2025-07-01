@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Noto_Sans_HK } from "next/font/google";
-import { getStaticParams } from "@/lib/i18n";
+import { getStaticParams } from "@/i18n";
 
 // We're not using the dynamic generateMetadata with params
 // since it causes issues with how Next.js handles dynamic routes

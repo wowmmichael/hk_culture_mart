@@ -2,12 +2,12 @@
 
 import { useParams, usePathname, useRouter } from 'next/navigation';
 import { createContext, useContext, ReactNode } from 'react';
-import { locales, defaultLocale } from '../lib/i18n';
+import { locales, defaultLocale, Locale, isValidLocale } from '@/i18n';
 
 // Create a context for locale information
 export interface LocaleContextProps {
-  locale: string;
-  changeLocale: (newLocale: string) => void;
+  locale: Locale;
+  changeLocale: (newLocale: Locale) => void;
 }
 
 const LocaleContext = createContext<LocaleContextProps>({
@@ -20,9 +20,12 @@ export function LocaleProvider({ children }: { children: ReactNode }) {
   const params = useParams();
   const pathname = usePathname();
   const router = useRouter();
-  const locale = (params?.locale as string) || defaultLocale;
+  
+  // Ensure we have a valid locale or default to the defaultLocale
+  const currentLocale = (params?.locale as string) || defaultLocale;
+  const locale = isValidLocale(currentLocale) ? (currentLocale as Locale) : defaultLocale;
 
-  const changeLocale = (newLocale: string) => {
+  const changeLocale = (newLocale: Locale) => {
     const currentPath = pathname || '';
     
     // Extract the current locale from the pathname

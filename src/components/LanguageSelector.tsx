@@ -3,19 +3,20 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { useParams, usePathname, useRouter } from 'next/navigation';
+import { Locale, getLocaleNames } from '@/i18n';
 
-// Language options with their display names
-const languages = [
-  { code: 'zh-TW', name: '繁體中文' },
-  { code: 'zh-CN', name: '简体中文' },
-  { code: 'en', name: 'English' }
-];
+// Get language options from the i18n utility
+const localeNames = getLocaleNames();
+const languages = Object.entries(localeNames).map(([code, name]) => ({ 
+  code: code as Locale, 
+  name 
+}));
 
 export default function LanguageSelector() {
   const params = useParams();
   const router = useRouter();
   const pathname = usePathname();
-  const currentLocale = params?.locale as string || 'zh-TW';
+  const currentLocale = (params?.locale as Locale) || 'zh-TW';
   const [isOpen, setIsOpen] = useState(false);
 
   // Handle clicking outside to close dropdown
@@ -33,7 +34,7 @@ export default function LanguageSelector() {
   }, [isOpen]);
   
   // Change language handler
-  const changeLanguage = (locale: string) => {
+  const changeLanguage = (locale: Locale) => {
     // Get the path without the locale prefix
     const currentPath = pathname || '';
     const segments = currentPath.split('/').filter(Boolean);

@@ -28,5 +28,87 @@
     "zh-TW": "繁體中文",
     "zh-CN": "简体中文",
     "en": "English"
+  },
+  "home": {
+    "categories": {
+      "title": "主要分类",
+      "toys": "玩具",
+      "toysDesc": "探索香港特色玩具和收藏品",
+      "culture": "文创文旅",
+      "cultureDesc": "发现香港文化创意和旅游产品",
+      "newyear": "农历新年",
+      "newyearDesc": "新年特色礼品和装饰"
+    },
+    "explore": "探索产品"
+  },
+  "christmas": {
+    "subtitle": "香港特色圣诞礼品与装饰",
+    "header": "香港特色圣诞",
+    "description": "在香港，圣诞节是一个充满东西方文化交融的节日。我们提供独特的香港风格圣诞商品，让您的节日庆祝更具本地特色。",
+    "featureTitle": "圣诞限定系列",
+    "featureAlt": "香港圣诞",
+    "featureDesc1": "我们的圣诞限定系列融合了西方圣诞元素与香港本地文化，创造出独特的节日体验。从装饰品到礼品，每一件都充满创意和心意。",
+    "featureDesc2": "无论是送给亲友还是装饰您的家，这些产品都能让您的圣诞节更加特别。",
+    "availability": "圣诞商品将于每年10月开始上架，敬请期待！"
+  },
+  "culture": {
+    "subtitle": "香港独特的文化创意与旅游纪念品",
+    "header": "探索香港文化创意",
+    "description": "我们精选香港本地的文化创意产品，展示本地设计师和艺术家的才华与创意。",
+    "featureTitle": "香港特色",
+    "featureAlt": "香港特色",
+    "featureDesc1": "从传统到现代，我们收集了各种反映香港独特文化和历史的产品。每件作品都代表着香港的某一面向，讲述着这座城市的故事。",
+    "featureDesc2": "这些产品不仅仅是纪念品，更是香港文化的载体，让您带回家的不只是物品，还有香港的精神与情感。",
+    "comingSoonTitle": "即将上架",
+    "comingSoonDesc": "我们正在与更多本地设计师合作，将带来更多精彩的文创产品。敬请期待！"
+  },
+  "halloween": {
+    "subtitle": "结合香港本地文化的万圣节商品",
+    "header": "香港风格万圣节",
+    "description": "万圣节在香港越来越受欢迎。我们融合香港本地元素与万圣节主题，打造独特的节日体验。",
+    "featuredTitle": "万圣节精选",
+    "category1": "装饰品",
+    "category1Desc": "结合中国传统元素与万圣节气氛的独特装饰品。",
+    "category2": "服装道具",
+    "category2Desc": "创意十足的万圣节服装与道具，融合东西方元素。",
+    "category3": "特别版玩具",
+    "category3Desc": "万圣节限定版玩具，融合中西文化的独特设计。",
+    "availability": "万圣节商品将于每年9月开始上架，敬请期待！"
+  },
+  "newyear": {
+    "title": "农历新年",
+    "subtitle": "庆祝农历新年的特色商品",
+    "header": "迎接农历新年",
+    "description": "农历新年是华人最重要的传统节日，我们提供各种精美的新年装饰和礼品，帮助您营造节日氛围。",
+    "category1": "新年饰品",
+    "category1Desc": "春联、灯笼、窗花等传统新年装饰，让您的家充满节日气氛。",
+    "category2": "新年礼盒",
+    "category2Desc": "精美的礼盒包装，内含各种传统糖果、饼干和茶叶，是拜访亲友的最佳选择。",
+    "category3": "限定玩具",
+    "category3Desc": "以当年生肖为主题的限定版玩具和收藏品，是珍贵的纪念品。",
+    "availability": "农历新年商品将于节日前两个月开始上架，敬请期待！"
+  },
+  "toys": {
+    "subtitle": "探索香港本土玩具与熊猫限定款",
+    "product1": {
+      "title": "毛绒熊猫玩偶",
+      "description": "经典叮当造型熊猫，充满可爱与抱抱"
+    },
+    "product2": {
+      "title": "小熊猫钥匙圈",
+      "description": "可爱的小熊猫随身带，值得珍藏"
+    },
+    "product3": {
+      "title": "亮绿袖子熊猫",
+      "description": "亮绿迷彩袖的熊猫，超级可爱"
+    },
+    "product4": {
+      "title": "亮黑熊猫玩具",
+      "description": "亮黑的小熊猫色调浓烈可可用慢摊"
+    },
+    "product5": {
+      "title": "熊猫支族玩具",
+      "description": "毛绒雪熊雪熊云，银色剑光使用"
+    }
   }
 }
