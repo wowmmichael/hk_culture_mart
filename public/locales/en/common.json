@@ -3,9 +3,21 @@
     "title": "Island Culture",
     "description": "A diverse marketplace for Hong Kong local products, sharing Hong Kong culture and creativity"
   },
+  "home": {
+    "categories": {
+      "title": "Main Categories",
+      "hkculture": "Hong Kong Culture",
+      "hkcultureDesc": "Explore the unique charm and creativity of Hong Kong culture",
+      "culture": "Cultural & Travel",
+      "cultureDesc": "Discover Hong Kong cultural creativity and travel products",
+      "newyear": "Lunar New Year",
+      "newyearDesc": "New Year special gifts and decorations"
+    },
+    "explore": "Explore Products"
+  },
   "nav": {
     "home": "Home",
-    "toys": "Toys",
+    "hkculture": "HK Culture",
     "culture": "Cultural & Travel",
     "christmas": "Christmas",
     "halloween": "Halloween",
@@ -29,18 +41,7 @@
     "zh-CN": "简体中文",
     "en": "English"
   },
-  "home": {
-    "categories": {
-      "title": "Main Categories",
-      "toys": "Toys",
-      "toysDesc": "Explore Hong Kong's unique toys and collectibles",
-      "culture": "Cultural & Travel",
-      "cultureDesc": "Discover Hong Kong's cultural creative and tourism products",
-      "newyear": "Lunar New Year",
-      "newyearDesc": "New Year special gifts and decorations"
-    },
-    "explore": "Explore Products"
-  },
+
   "christmas": {
     "subtitle": "Hong Kong-style Christmas gifts and decorations",
     "header": "Hong Kong Christmas",
@@ -88,27 +89,22 @@
     "category3Desc": "Limited edition toys and collectibles themed around the zodiac animal of the year, making them precious souvenirs.",
     "availability": "Lunar New Year products will be available two months before the festival. Stay tuned!"
   },
-  "toys": {
-    "subtitle": "Explore Hong Kong local toys and panda limited editions",
-    "product1": {
-      "title": "Plush Panda Toy",
-      "description": "Classic design panda, adorable and huggable"
-    },
-    "product2": {
-      "title": "Panda Keychain",
-      "description": "Cute little panda to carry with you, worth collecting"
-    },
-    "product3": {
-      "title": "Green Sleeve Panda",
-      "description": "Panda with bright green camouflage sleeves, super cute"
-    },
-    "product4": {
-      "title": "Black Panda Toy",
-      "description": "Bright black little panda with intense color tones"
-    },
-    "product5": {
-      "title": "White Panda Collectible",
-      "description": "Plush snow bear cloud with silver sword light"
-    }
+  "hkculture": {
+    "title": "Hong Kong Culture",
+    "subtitle": "Explore the unique charm of Hong Kong culture",
+    "header": "Hong Kong Cultural Heritage",
+    "description": "Hong Kong is a unique place where Eastern and Western cultures blend, with a rich and diverse cultural heritage and modern creativity. From traditional festivals to contemporary art, from street food to fine dining, Hong Kong's cultural foundation is deep and diverse.",
+    "featuredTitle": "Cultural Highlights",
+    "ipDevelopment": "IP Development",
+    "ipDesc": "We are committed to developing and promoting Hong Kong's local cultural IP, bringing Hong Kong's unique charm to the world through innovative design and products. We collaborate with local artists to transform elements of Hong Kong's street culture, architectural features, and culinary traditions into unique designs and products.",
+    "travelCulture": "Travel Culture",
+    "travelDesc": "Experience Hong Kong's unique travel culture, from bustling urban landscapes to serene country parks, from traditional temples to modern architecture. Hong Kong offers a rich variety of travel resources. We provide unique Hong Kong travel experiences and souvenirs for you to take away special memories of Hong Kong.",
+    "category1": "Cultural Workshops",
+    "category1Desc": "Participate in our cultural workshops to make traditional Hong Kong crafts by hand and experience Hong Kong's cultural heritage.",
+    "category2": "Hong Kong Stories",
+    "category2Desc": "Learn about Hong Kong's historical changes and cultural stories through multimedia exhibitions and interactive experiences.",
+    "category3": "Creative Products",
+    "category3Desc": "Creative products incorporating Hong Kong elements, carefully crafted by local designers, showcase Hong Kong's creative power.",
+    "learnMore": "Learn More"
   }
 }

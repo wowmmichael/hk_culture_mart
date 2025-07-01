@@ -26,7 +26,7 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4 text-gray-800">{t('footer.quickLinks')}</h3>
             <ul className="space-y-2">
               <li><Link href={`${localePrefix}`} className="text-gray-700 hover:text-red-600">{t('nav.home')}</Link></li>
-              <li><Link href={`${localePrefix}/toys`} className="text-gray-700 hover:text-red-600">{t('nav.toys')}</Link></li>
+              <li><Link href={`${localePrefix}/hkculture`} className="text-gray-700 hover:text-red-600">{t('nav.hkculture')}</Link></li>
               <li><Link href={`${localePrefix}/culture`} className="text-gray-700 hover:text-red-600">{t('nav.culture')}</Link></li>
               <li><Link href={`${localePrefix}/about`} className="text-gray-700 hover:text-red-600">{t('nav.about')}</Link></li>
             </ul>

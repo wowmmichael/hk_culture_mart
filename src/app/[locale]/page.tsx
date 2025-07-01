@@ -51,7 +51,7 @@ export default function LocalizedHomePage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-4 text-red-700">{title}</h1>
               <p className="text-xl text-gray-700 mb-8">{description}</p>
               <Link 
-                href={`${localePrefix}/toys`}
+                href={`${localePrefix}/hkculture`}
                 className="inline-block bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               >
                 {exploreText}
@@ -75,19 +75,19 @@ export default function LocalizedHomePage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">{categoriesTitle}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Link href={`${localePrefix}/toys`} className="group">
+            <Link href={`${localePrefix}/港式文化`} className="group">
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
                 <div className="relative h-64">
                   <Image 
                     src="/images/toys-banner-low.jpg" 
-                    alt={toysTitle}
+                    alt={t('home.categories.hkculture')}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{toysTitle}</h3>
-                  <p className="text-gray-600">{toysDesc}</p>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{t('home.categories.hkculture')}</h3>
+                  <p className="text-gray-600">{t('home.categories.hkcultureDesc')}</p>
                 </div>
               </div>
             </Link>

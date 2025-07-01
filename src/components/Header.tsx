@@ -32,7 +32,7 @@ export default function Header() {
   const [translations, setTranslations] = useState<Record<string, string>>({
     siteTitle: '香岛文化',
     home: '首頁',
-    toys: '玩具',
+    hkculture: '港式文化',
     culture: '文創文旅',
     christmas: '聖誕節',
     halloween: '萬聖節',
@@ -45,7 +45,7 @@ export default function Header() {
       const nav = {
         siteTitle: String(t('site.title')),
         home: String(t('nav.home')),
-        toys: String(t('nav.toys')),
+        hkculture: String(t('nav.hkculture')),
         culture: String(t('nav.culture')),
         christmas: String(t('nav.christmas')),
         halloween: String(t('nav.halloween')),
@@ -66,7 +66,7 @@ export default function Header() {
           
           <div className="flex items-center space-x-1">
             <NavLink href="/">{translations.home}</NavLink>
-            <NavLink href="/toys">{translations.toys}</NavLink>
+            <NavLink href="/hkculture">{translations.hkculture}</NavLink>
             <NavLink href="/culture">{translations.culture}</NavLink>
             <NavLink href="/christmas">{translations.christmas}</NavLink>
             <NavLink href="/halloween">{translations.halloween}</NavLink>
