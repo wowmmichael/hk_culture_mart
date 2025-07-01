@@ -30,6 +30,7 @@ const NavLink = ({ href, children, className = '' }: NavLinkProps) => {
 export default function Header() {
   const { t, locale } = useTranslations();
   const [translations, setTranslations] = useState<Record<string, string>>({
+    siteTitle: '香岛文化',
     home: '首頁',
     toys: '玩具',
     culture: '文創文旅',
@@ -42,6 +43,7 @@ export default function Header() {
   useEffect(() => {
     function loadTranslations() {
       const nav = {
+        siteTitle: String(t('site.title')),
         home: String(t('nav.home')),
         toys: String(t('nav.toys')),
         culture: String(t('nav.culture')),
@@ -60,7 +62,7 @@ export default function Header() {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3">
         <nav className="flex items-center justify-between">
-          <NavLink href="/" className="font-bold text-xl text-red-700">香岛文化</NavLink>
+          <NavLink href="/" className="font-bold text-xl text-red-700">{translations.siteTitle}</NavLink>
           
           <div className="flex items-center space-x-1">
             <NavLink href="/">{translations.home}</NavLink>

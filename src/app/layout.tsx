@@ -20,8 +20,11 @@ const notoSansHK = Noto_Sans_HK({
   subsets: ["latin"],
 });
 
+// Base metadata that applies to all locales
+// We're using static metadata here since dynamic metadata with params
+// can cause issues with Next.js's handling of dynamic routes
 export const metadata: Metadata = {
-  title: "香岛文化 | Island Cult",
+  title: "香岛文化 | Island Culture",
   description: "香港本地產品的多元市集，分享香港文化與創意",
 };
 
