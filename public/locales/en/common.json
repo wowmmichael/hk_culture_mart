@@ -8,8 +8,6 @@
       "title": "Main Categories",
       "hkculture": "Hong Kong Culture",
       "hkcultureDesc": "Explore the unique charm and creativity of Hong Kong culture",
-      "culture": "Cultural & Travel",
-      "cultureDesc": "Discover Hong Kong cultural creativity and travel products",
       "newyear": "Lunar New Year",
       "newyearDesc": "New Year special gifts and decorations"
     },
@@ -18,7 +16,6 @@
   "nav": {
     "home": "Home",
     "hkculture": "HK Culture",
-    "culture": "Cultural & Travel",
     "hkfestival": "Festivals",
     "about": "About Us",
     "ipPartnerships": "IP Partnerships",
@@ -56,17 +53,7 @@
     "featureDesc2": "Whether you're giving them to friends and family or decorating your home, these products will make your Christmas more special.",
     "availability": "Christmas products will be available from October each year. Stay tuned!"
   },
-  "culture": {
-    "subtitle": "Hong Kong's unique cultural and travel souvenirs",
-    "header": "Explore Hong Kong's Cultural Creativity",
-    "description": "We select local cultural creative products from Hong Kong to showcase the talents and creativity of local designers and artists.",
-    "featureTitle": "Hong Kong Features",
-    "featureAlt": "Hong Kong Features",
-    "featureDesc1": "From traditional to modern, we collect a variety of products reflecting Hong Kong's unique culture and history. Each piece represents an aspect of Hong Kong and tells a story of this city.",
-    "featureDesc2": "These products are not just souvenirs, but carriers of Hong Kong culture. What you take home is not just an item, but also the spirit and emotion of Hong Kong.",
-    "comingSoonTitle": "Coming Soon",
-    "comingSoonDesc": "We are working with more local designers and will bring more exciting cultural creative products. Stay tuned!"
-  },
+
   "halloween": {
     "subtitle": "Halloween items combining Hong Kong local culture",
     "header": "Hong Kong Style Halloween",

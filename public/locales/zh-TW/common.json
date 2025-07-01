@@ -6,7 +6,6 @@
   "nav": {
     "home": "首頁",
     "hkculture": "港式文化",
-    "culture": "文創文旅",
     "hkfestival": "節慶產品",
     "about": "關於我們",
     "ipPartnerships": "IP合作",
@@ -38,8 +37,6 @@
       "title": "主要分類",
       "hkculture": "港式文化",
       "hkcultureDesc": "探索香港獨特的文化魅力與創意",
-      "culture": "文創文旅",
-      "cultureDesc": "發現香港文化創意和旅遊產品",
       "newyear": "農曆新年",
       "newyearDesc": "新年特色禮品和裝飾"
     },
@@ -55,17 +52,7 @@
     "featureDesc2": "無論是送給親友還是裝飾您的家，這些產品都能讓您的聖誕節更加特別。",
     "availability": "聖誕商品將於每年10月開始上架，敬請期待！"
   },
-  "culture": {
-    "subtitle": "香港獨特的文化創意與旅遊紀念品",
-    "header": "探索香港文化創意",
-    "description": "我們精選香港本地的文化創意產品，展示本地設計師和藝術家的才華與創意。",
-    "featureTitle": "香港特色",
-    "featureAlt": "香港特色",
-    "featureDesc1": "從傳統到現代，我們收集了各種反映香港獨特文化和歷史的產品。每件作品都代表著香港的某一面向，講述著這座城市的故事。",
-    "featureDesc2": "這些產品不僅僅是紀念品，更是香港文化的載體，讓您帶回家的不只是物品，還有香港的精神與情感。",
-    "comingSoonTitle": "即將上架",
-    "comingSoonDesc": "我們正在與更多本地設計師合作，將帶來更多精彩的文創產品。敬請期待！"
-  },
+
   "halloween": {
     "subtitle": "結合香港本地文化的萬聖節商品",
     "header": "香港風格萬聖節",
