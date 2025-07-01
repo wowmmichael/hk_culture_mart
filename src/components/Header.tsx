@@ -34,9 +34,7 @@ export default function Header() {
     home: '首頁',
     hkculture: '港式文化',
     culture: '文創文旅',
-    christmas: '聖誕節',
-    halloween: '萬聖節',
-    newyear: '贺年礼品',
+    hkfestival: '節慶活動',
     about: '關於我們',
   });
 
@@ -47,9 +45,7 @@ export default function Header() {
         home: String(t('nav.home')),
         hkculture: String(t('nav.hkculture')),
         culture: String(t('nav.culture')),
-        christmas: String(t('nav.christmas')),
-        halloween: String(t('nav.halloween')),
-        newyear: String(t('nav.newyear')),
+        hkfestival: String(t('nav.hkfestival')),
         about: String(t('nav.about'))
       };
       setTranslations(nav);
@@ -68,9 +64,7 @@ export default function Header() {
             <NavLink href="/">{translations.home}</NavLink>
             <NavLink href="/hkculture">{translations.hkculture}</NavLink>
             <NavLink href="/culture">{translations.culture}</NavLink>
-            <NavLink href="/christmas">{translations.christmas}</NavLink>
-            <NavLink href="/halloween">{translations.halloween}</NavLink>
-            <NavLink href="/newyear">{translations.newyear}</NavLink>
+            <NavLink href="/hkfestival">{translations.hkfestival}</NavLink>
             <NavLink href="/about">{translations.about}</NavLink>
           </div>
           

@@ -35,9 +35,10 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4 text-gray-800">{t('footer.festivalSpecial')}</h3>
             <ul className="space-y-2">
-              <li><Link href={`${localePrefix}/newyear`} className="text-gray-700 hover:text-red-600">{t('nav.newyear')}</Link></li>
-              <li><Link href={`${localePrefix}/christmas`} className="text-gray-700 hover:text-red-600">{t('nav.christmas')}</Link></li>
-              <li><Link href={`${localePrefix}/halloween`} className="text-gray-700 hover:text-red-600">{t('nav.halloween')}</Link></li>
+              <li><Link href={`${localePrefix}/hkfestival`} className="text-gray-700 hover:text-red-600">{t('nav.hkfestival')}</Link></li>
+              <li><Link href={`${localePrefix}/hkfestival/newyear`} className="text-gray-700 hover:text-red-600">{t('nav.festival.newyear')}</Link></li>
+              <li><Link href={`${localePrefix}/hkfestival/christmas`} className="text-gray-700 hover:text-red-600">{t('nav.festival.christmas')}</Link></li>
+              <li><Link href={`${localePrefix}/hkfestival/halloween`} className="text-gray-700 hover:text-red-600">{t('nav.festival.halloween')}</Link></li>
             </ul>
           </div>
           

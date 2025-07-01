@@ -7,10 +7,13 @@
     "home": "首頁",
     "hkculture": "港式文化",
     "culture": "文創文旅",
-    "christmas": "聖誕節",
-    "halloween": "萬聖節",
-    "newyear": "贺年礼品",
-    "about": "關於我們"
+    "hkfestival": "節慶活動",
+    "about": "關於我們",
+    "festival": {
+      "christmas": "聖誕節",
+      "halloween": "萬聖節",
+      "newyear": "農曆新年"
+    }
   },
   "footer": {
     "quickLinks": "快速連結",
@@ -105,5 +108,19 @@
     "category3": "創意產品",
     "category3Desc": "融合香港元素的創意產品，由本地設計師精心打造，展現香港的創意力量。",
     "learnMore": "了解更多"
+  },
+  "hkfestival": {
+    "title": "香港節慶",
+    "subtitle": "探索香港獨特的節日慶典",
+    "header": "傳統與現代節日",
+    "description": "香港全年慶祝著東西方節日的獨特融合。從傳統中國節日如農曆新年、中秋節到西方慶典如聖誕節和萬聖節，每個節日都具有香港特色。",
+    "featuredTitle": "節日精選",
+    "category1": "傳統中國節慶",
+    "category1Desc": "體驗具有香港特色的傳統中國節日，如農曆新年、中秋節和端午節，感受獨特的本地習俗。",
+    "category2": "港式西方節日",
+    "category2Desc": "探索如何將聖誕節和萬聖節等西方慶典融入香港本地元素，創造獨特的文化交融。",
+    "category3": "香港本地慶典",
+    "category3Desc": "了解香港特有的節日和慶典，反映這座城市豐富的歷史和文化特色。",
+    "exploreMore": "探索我們的節日系列"
   }
 }

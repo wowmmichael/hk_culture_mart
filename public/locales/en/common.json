@@ -19,10 +19,13 @@
     "home": "Home",
     "hkculture": "HK Culture",
     "culture": "Cultural & Travel",
-    "christmas": "Christmas",
-    "halloween": "Halloween",
-    "newyear": "New Year Gifts",
-    "about": "About Us"
+    "hkfestival": "Festivals",
+    "about": "About Us",
+    "festival": {
+      "christmas": "Christmas",
+      "halloween": "Halloween",
+      "newyear": "Lunar New Year"
+    }
   },
   "footer": {
     "quickLinks": "Quick Links",
@@ -106,5 +109,19 @@
     "category3": "Creative Products",
     "category3Desc": "Creative products incorporating Hong Kong elements, carefully crafted by local designers, showcase Hong Kong's creative power.",
     "learnMore": "Learn More"
+  },
+  "hkfestival": {
+    "title": "Hong Kong Festivals",
+    "subtitle": "Explore the unique festival celebrations in Hong Kong",
+    "header": "Traditional & Modern Festivals",
+    "description": "Hong Kong celebrates a unique blend of Eastern and Western festivals throughout the year. From traditional Chinese festivals like Lunar New Year and Mid-Autumn Festival to Western celebrations like Christmas and Halloween, each is given a distinctive Hong Kong twist.",
+    "featuredTitle": "Festival Highlights",
+    "category1": "Traditional Chinese Festivals",
+    "category1Desc": "Experience traditional Chinese festivals like Lunar New Year, Mid-Autumn Festival, and Dragon Boat Festival with unique Hong Kong characteristics and customs.",
+    "category2": "Western Festivals with Hong Kong Flair",
+    "category2Desc": "Discover how Western celebrations like Christmas and Halloween are transformed with local Hong Kong elements, creating a unique cultural fusion.",
+    "category3": "Local Hong Kong Celebrations",
+    "category3Desc": "Learn about festivals and celebrations unique to Hong Kong, reflecting the city's rich history and cultural identity.",
+    "exploreMore": "Explore Our Festival Collections"
   }
 }
