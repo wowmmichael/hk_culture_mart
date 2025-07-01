@@ -35,6 +35,7 @@ export default function Header() {
     hkculture: '港式文化',
     culture: '文創文旅',
     hkfestival: '節慶活動',
+    ipPartnerships: 'IP合作',
     about: '關於我們',
   });
 
@@ -46,6 +47,7 @@ export default function Header() {
         hkculture: String(t('nav.hkculture')),
         culture: String(t('nav.culture')),
         hkfestival: String(t('nav.hkfestival')),
+        ipPartnerships: String(t('nav.ipPartnerships')),
         about: String(t('nav.about'))
       };
       setTranslations(nav);
@@ -65,6 +67,7 @@ export default function Header() {
             <NavLink href="/hkculture">{translations.hkculture}</NavLink>
             <NavLink href="/culture">{translations.culture}</NavLink>
             <NavLink href="/hkfestival">{translations.hkfestival}</NavLink>
+            <NavLink href="/ip-partnerships">{translations.ipPartnerships}</NavLink>
             <NavLink href="/about">{translations.about}</NavLink>
           </div>
           

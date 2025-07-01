@@ -28,6 +28,7 @@ export default function Footer() {
               <li><Link href={`${localePrefix}`} className="text-gray-700 hover:text-red-600">{t('nav.home')}</Link></li>
               <li><Link href={`${localePrefix}/hkculture`} className="text-gray-700 hover:text-red-600">{t('nav.hkculture')}</Link></li>
               <li><Link href={`${localePrefix}/culture`} className="text-gray-700 hover:text-red-600">{t('nav.culture')}</Link></li>
+              <li><Link href={`${localePrefix}/ip-partnerships`} className="text-gray-700 hover:text-red-600">{t('nav.ipPartnerships')}</Link></li>
               <li><Link href={`${localePrefix}/about`} className="text-gray-700 hover:text-red-600">{t('nav.about')}</Link></li>
             </ul>
           </div>

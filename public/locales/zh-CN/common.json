@@ -9,6 +9,7 @@
     "culture": "文创文旅",
     "hkfestival": "节庆产品",
     "about": "关于我们",
+    "ipPartnerships": "IP合作",
     "festival": {
       "christmas": "圣诞节",
       "halloween": "万圣节",
@@ -122,5 +123,58 @@
     "category3": "香港本地庆典",
     "category3Desc": "了解香港特有的节日和庆典，反映这座城市丰富的历史和文化特色。",
     "exploreMore": "探索我们的节日系列"
+  },
+  "ipPartnerships": {
+    "title": "IP合作",
+    "subtitle": "连接中国与全球IP与香港市场",
+    "header": "IP合作机会",
+    "description": "香港作为连接中国内地和国际IP持有者通往全球市场的独特门户。我们提供战略合作伙伴关系，通过高品质的纪念品和收藏品使标志性角色、品牌和创意资产栩栩如生。",
+    "partnerWithUs": "与我们合作",
+    "sections": {
+      "mainlandIPs": {
+        "title": "中国内地IP",
+        "description": "我们与中国内地流行的IP合作，通过优质商品和纪念品将他们深受喜爱的角色和故事带给国际受众。",
+        "benefits": [
+          "进入香港每年数十亿游客的国际市场",
+          "高品质制造和真实性保证",
+          "多渠道营销支持",
+          "符合法规和IP保护"
+        ]
+      },
+      "overseasIPs": {
+        "title": "国际IP",
+        "description": "我们帮助国际品牌和IP拥有者通过我们成熟的分销网络和文化专业知识进入广阔的中国市场。",
+        "benefits": [
+          "战略性进入中国内地庞大的消费市场",
+          "文化适应和本地化专业知识",
+          "成熟的分销和零售网络",
+          "在亚洲市场全面保护IP"
+        ]
+      },
+      "collaboration": {
+        "title": "合作模式",
+        "options": [
+          {
+            "title": "授权合作",
+            "description": "授权您的IP用于高品质商品和纪念品，并保证品质控制和品牌一致性。"
+          },
+          {
+            "title": "联名产品",
+            "description": "创造独特的联名产品，将您的IP与香港文化元素融合，获得独特的市场定位。"
+          },
+          {
+            "title": "独家系列",
+            "description": "为特殊活动或季节性促销开发独家限量版系列。"
+          },
+          {
+            "title": "快闪体验",
+            "description": "在香港黄金地段创造沉浸式零售体验和快闪店，展示您的IP。"
+          }
+        ]
+      }
+    },
+    "successStories": "成功案例",
+    "contactUs": "对合作机会感兴趣？联系我们的IP合作团队，讨论如何共同合作。",
+    "contactButton": "联系IP团队"
   }
 }

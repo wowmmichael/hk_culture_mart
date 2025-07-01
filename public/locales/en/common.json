@@ -21,6 +21,7 @@
     "culture": "Cultural & Travel",
     "hkfestival": "Festivals",
     "about": "About Us",
+    "ipPartnerships": "IP Partnerships",
     "festival": {
       "christmas": "Christmas",
       "halloween": "Halloween",
@@ -123,5 +124,58 @@
     "category3": "Local Hong Kong Celebrations",
     "category3Desc": "Learn about festivals and celebrations unique to Hong Kong, reflecting the city's rich history and cultural identity.",
     "exploreMore": "Explore Our Festival Collections"
+  },
+  "ipPartnerships": {
+    "title": "IP Partnerships",
+    "subtitle": "Connecting Chinese & Global IPs with Hong Kong's Market",
+    "header": "IP Collaboration Opportunities",
+    "description": "Hong Kong serves as a unique gateway connecting mainland China and international IP holders to global markets. We offer strategic partnerships to bring iconic characters, brands, and creative properties to life through high-quality souvenirs and collectibles.",
+    "partnerWithUs": "Partner With Us",
+    "sections": {
+      "mainlandIPs": {
+        "title": "Mainland China IPs",
+        "description": "We collaborate with popular mainland China IPs to bring their beloved characters and stories to international audiences through premium merchandise and souvenirs.",
+        "benefits": [
+          "Access to Hong Kong's international market with billions of tourists annually",
+          "High-quality manufacturing and authenticity guarantees",
+          "Marketing support across multiple channels",
+          "Regulatory compliance and IP protection"
+        ]
+      },
+      "overseasIPs": {
+        "title": "International IPs",
+        "description": "We help international brands and IP owners enter the vast Chinese market through our established distribution networks and cultural expertise.",
+        "benefits": [
+          "Strategic entry into mainland China's massive consumer market",
+          "Cultural adaptation and localization expertise",
+          "Established distribution and retail networks",
+          "Comprehensive IP protection in Asian markets"
+        ]
+      },
+      "collaboration": {
+        "title": "Collaboration Models",
+        "options": [
+          {
+            "title": "Licensing Partnerships",
+            "description": "License your IP for high-quality merchandise and souvenirs with guaranteed quality control and brand consistency."
+          },
+          {
+            "title": "Co-branded Products",
+            "description": "Create unique co-branded products that merge your IP with Hong Kong cultural elements for unique market positioning."
+          },
+          {
+            "title": "Exclusive Collections",
+            "description": "Develop exclusive, limited-edition collections for special events or seasonal promotions."
+          },
+          {
+            "title": "Pop-up Experiences",
+            "description": "Create immersive retail experiences and pop-up stores featuring your IP in prime Hong Kong locations."
+          }
+        ]
+      }
+    },
+    "successStories": "Success Stories",
+    "contactUs": "Interested in partnership opportunities? Contact our IP collaboration team to discuss how we can work together.",
+    "contactButton": "Contact IP Team"
   }
 }
