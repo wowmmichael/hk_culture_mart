@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Noto_Sans_HK } from "next/font/google";
 import { LocaleProvider } from "@/contexts/LocaleContext";
+import BodyWrapper from "@/components/BodyWrapper";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -39,13 +40,13 @@ export default function RootLayout({
                          
   return (
     <html lang={langAttribute}>
-      <body
+      <BodyWrapper
         className={`${geistSans.variable} ${geistMono.variable} ${notoSansHK.variable} antialiased bg-gray-50 font-[family-name:var(--font-noto-sans-hk)]`}
       >
         <LocaleProvider>
           {children}
         </LocaleProvider>
-      </body>
+      </BodyWrapper>
     </html>
   );
 }
