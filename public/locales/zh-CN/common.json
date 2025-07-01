@@ -37,8 +37,10 @@
       "title": "主要分类",
       "hkculture": "港式文化",
       "hkcultureDesc": "探索香港独特的文化魅力与创意",
-      "newyear": "农历新年",
-      "newyearDesc": "新年特色礼品和装饰"
+      "festival": "节庆产品",
+      "festivalDesc": "发现我们的季节限定和节日特色产品",
+      "ipPartnerships": "IP合作",
+      "ipPartnershipsDesc": "连接您的品牌与香港充满活力的市场"
     },
     "explore": "探索产品"
   },

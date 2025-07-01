@@ -14,7 +14,7 @@ export default function AboutPage() {
       {/* Hero Banner */}
       <div className="relative h-64 md:h-80">
         <Image
-          src="/images/about-banner.jpg"
+          src="/images/hero-image.jpg"
           alt={t('nav.about')}
           fill
           className="object-cover"

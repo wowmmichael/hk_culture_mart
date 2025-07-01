@@ -16,7 +16,7 @@ export default function HKFestivalPage() {
       {/* Hero Banner */}
       <div className="relative h-64 md:h-80">
         <Image
-          src="/images/festival-banner.jpg"
+          src="/images/hkfestival-banner.jpg"
           alt={t('hkfestival.title')}
           fill
           className="object-cover"

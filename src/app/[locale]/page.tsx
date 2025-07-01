@@ -14,12 +14,12 @@ export default function LocalizedHomePage() {
   const [description, setDescription] = useState("");
   const [exploreText, setExploreText] = useState("");
   const [categoriesTitle, setCategoriesTitle] = useState("");
-  const [toysTitle, setToysTitle] = useState("");
-  const [toysDesc, setToysDesc] = useState("");
-  const [cultureTitle, setCultureTitle] = useState("");
-  const [cultureDesc, setCultureDesc] = useState("");
-  const [newyearTitle, setNewyearTitle] = useState("");
-  const [newyearDesc, setNewyearDesc] = useState("");
+  const [hkcultureTitle, setHkcultureTitle] = useState("");
+  const [hkcultureDesc, setHkcultureDesc] = useState("");
+  const [festivalTitle, setFestivalTitle] = useState("");
+  const [festivalDesc, setFestivalDesc] = useState("");
+  const [ipTitle, setIpTitle] = useState("");
+  const [ipDesc, setIpDesc] = useState("");
 
   useEffect(() => {
     function loadTranslations() {
@@ -27,12 +27,12 @@ export default function LocalizedHomePage() {
       setDescription(String(t('site.description')));
       setExploreText(String(t('home.explore')));
       setCategoriesTitle(String(t('home.categories.title')));
-      setToysTitle(String(t('home.categories.toys')));
-      setToysDesc(String(t('home.categories.toysDesc')));
-      setCultureTitle(String(t('home.categories.culture')));
-      setCultureDesc(String(t('home.categories.cultureDesc')));
-      setNewyearTitle(String(t('home.categories.newyear')));
-      setNewyearDesc(String(t('home.categories.newyearDesc')));
+      setHkcultureTitle(String(t('home.categories.hkculture')));
+      setHkcultureDesc(String(t('home.categories.hkcultureDesc')));
+      setFestivalTitle(String(t('home.categories.festival')));
+      setFestivalDesc(String(t('home.categories.festivalDesc')));
+      setIpTitle(String(t('home.categories.ipPartnerships')));
+      setIpDesc(String(t('home.categories.ipPartnershipsDesc')));
     }
     loadTranslations();
   }, [t, locale]);
@@ -75,51 +75,51 @@ export default function LocalizedHomePage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">{categoriesTitle}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Link href={`${localePrefix}/港式文化`} className="group">
+            <Link href={`${localePrefix}/hkculture`} className="group">
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
                 <div className="relative h-64">
                   <Image 
                     src="/images/toys-banner-low.jpg" 
-                    alt={t('home.categories.hkculture')}
+                    alt={hkcultureTitle}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{t('home.categories.hkculture')}</h3>
-                  <p className="text-gray-600">{t('home.categories.hkcultureDesc')}</p>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{hkcultureTitle}</h3>
+                  <p className="text-gray-600">{hkcultureDesc}</p>
                 </div>
               </div>
             </Link>
-            <Link href={`${localePrefix}/culture`} className="group">
+            <Link href={`${localePrefix}/hkfestival`} className="group">
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
                 <div className="relative h-64">
                   <Image 
-                    src="/images/culture-banner-low.jpg" 
-                    alt={cultureTitle}
+                    src="/images/hkfestival-banner.jpg" 
+                    alt={festivalTitle}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{cultureTitle}</h3>
-                  <p className="text-gray-600">{cultureDesc}</p>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{festivalTitle}</h3>
+                  <p className="text-gray-600">{festivalDesc}</p>
                 </div>
               </div>
             </Link>
-            <Link href={`${localePrefix}/newyear`} className="group">
+            <Link href={`${localePrefix}/ip-partnerships`} className="group">
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
                 <div className="relative h-64">
                   <Image 
-                    src="/images/newyear-banner-low.jpg" 
-                    alt={newyearTitle}
+                    src="/images/ip-partnerships-banner.jpg" 
+                    alt={ipTitle}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{newyearTitle}</h3>
-                  <p className="text-gray-600">{newyearDesc}</p>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{ipTitle}</h3>
+                  <p className="text-gray-600">{ipDesc}</p>
                 </div>
               </div>
             </Link>
