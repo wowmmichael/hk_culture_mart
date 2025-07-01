@@ -44,9 +44,10 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4 text-gray-800">{t('footer.contactUs')}</h3>
             <p className="text-gray-700 text-sm mb-2">{t('footer.address')}</p>
-            <p className="text-gray-700 text-sm flex items-center mb-4">
+            <p className="text-gray-700 text-sm flex items-center mb-2">
               <span>📞 {t('footer.phone')}</span>
-              <span className="mx-3 text-gray-400">|</span>
+            </p>
+            <p className="text-gray-700 text-sm flex items-center mb-4">
               <span>✉️ {t('footer.email')}</span>
             </p>
             
